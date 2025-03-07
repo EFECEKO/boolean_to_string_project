@@ -1,20 +1,52 @@
-{\rtf1\ansi\ansicpg1254\cocoartf2761
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+Program for Boolean to String Conversion
 
-\f0\fs24 \cf0 Boolean to String Conversion\
-\
-Bu proje, verilen bir boolean de\uc0\u287 erini string ifadesine d\'f6n\'fc\u351 t\'fcrmek amac\u305 yla yaz\u305 lm\u305 \u351 t\u305 r.\
-- Programlama Dili: Python\
-- Nas\uc0\u305 l \'c7al\u305 \u351 t\u305 r\u305 l\u305 r?\
-  1. Proje klas\'f6r\'fcnde terminali a\'e7\uc0\u305 n.\
-  2. `python main.py` komutunu \'e7al\uc0\u305 \u351 t\u305 r\u305 n.\
-\
-Ek Bilgiler\
-- Bu projede `boolean_to_string` fonksiyonu, `True` ve `False` de\uc0\u287 erlerini s\u305 ras\u305 yla `"True"` ve `"False"` stringlerine d\'f6n\'fc\u351 t\'fcrmektedir.\
-\
-L\'fctfen bir boolean de\uc0\u287 er girin (1=True, 0=False): 1\
-String kar\uc0\u351 \u305 l\u305 \u287 \u305 : True}
+Ödev: Program for Boolean to String Conversion
+İsim: Efe Cengiz Köse (Öğrenci No: 22296796)
+Programlama Dili: Python
+
+1. Projenin Amacı
+
+Bu proje, kullanıcıdan alınan veya program içinde tanımlanan boolean (True/False) değerlerin "True" veya "False" şeklinde string karşılığını döndürmeyi amaçlar. Böylece temel düzeyde Python’da fonksiyon yazma, veri tipleri arası dönüşüm ve kullanıcı etkileşimi konularını pekiştirmek hedeflenmiştir.
+
+2. Kurulum ve Ön Gereksinimler
+	1.	Bilgisayarınızda Python 3 kurulu olduğundan emin olun.
+	2.	Proje dosyalarını GitHub üzerinden indirin (veya klonlayın) ya da elinizdeki klasörde main.py dosyasını bulundurun.
+
+3. Proje Yapısı
+
+boolean_to_string_project/
+├── main.py
+└── README.md
+
+	•	main.py: Boolean-to-string dönüşümünü yapan fonksiyonun ve örnek kullanımın bulunduğu asıl Python dosyası.
+	•	README.md: Projenin açıklamalarını, kurulum ve kullanım talimatlarını içeren bu dosya.
+
+4. Çalıştırma Adımları
+	1.	Proje Klasörüne Girin
+Terminal (Windows için CMD/PowerShell veya macOS/Linux için Terminal) açarak projenin bulunduğu klasöre geçin.
+
+cd boolean_to_string_project
+
+
+	2.	Programı Çalıştırın
+Aşağıdaki komut ile Python dosyasını çalıştırabilirsiniz:
+
+python main.py
+
+veya
+
+python3 main.py
+
+(Sisteminizde python3 komutu geçerliyse.)
+
+5. Kullanım Örneği
+
+Aşağıdakine benzer basit bir örnek akışı olabilir:
+	1.	Program kullanıcıdan “1” veya “0” girmesini ister.
+	2.	Kullanıcı “1” girerse, program konsolda “True” çıktısını verir.
+	3.	Kullanıcı “0” girerse, program konsolda “False” çıktısını verir.
+
+Örnek Çıktı:
+
+Lütfen bir boolean değer girin (1=True, 0=False): 1
+String karşılığı: True
